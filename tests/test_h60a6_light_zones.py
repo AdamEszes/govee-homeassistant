@@ -37,7 +37,7 @@ from custom_components.govee.models.device import (
     INSTANCE_MAIN_LIGHT_TOGGLE,
 )
 
-from .test_setup_entry import API_KEY, _api_client, _stub_transports
+from tests.test_setup_entry import API_KEY, _api_client, _stub_transports
 
 DEV = "1A:56:5C:E7:00:00:60:A6"
 
